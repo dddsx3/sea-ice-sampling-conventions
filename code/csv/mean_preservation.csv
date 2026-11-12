@@ -1,0 +1,4 @@
+quantity,value_m,value_mm,from_tables,note
+delivered mean (merged),1.109,1109.0,True,tab_domain B
+IPW mean (merged),1.111,1111.0,True,tab_domain B
+agreement,0.002,2.0,True,"2 mm, self-consistency not validation"

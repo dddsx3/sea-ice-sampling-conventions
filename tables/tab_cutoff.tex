@@ -1,0 +1,27 @@
+\begin{table}[htbp]
+\centering
+\caption{Sensitivity of the single-sensor level shift to the strength of domain
+selection (shift is relative to the observed-only aggregate). The package ships
+three domain definitions on the same 98-month record
+(Table~\ref{tab:domain}, Panel~A): a varying set observed in the month, the fixed
+grid observed in at least 90\,\% of months, and the near-completely observed
+cells north of 80$^\circ$N. The shift is monotonic in selection strength, so the
+29\,cm is not an accident of the 90\,\% cut but one point on a continuum; the
+direction is set by the fitted propensity (observation probability rises with
+retrieved thickness). Finer percentile cuts (80/95\,\%) require the deposited
+cell-level observation indicator and are not reproduced here.}
+\label{tab:cutoff}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{p{4.3cm}p{1.8cm}p{2.2cm}p{3.0cm}}
+\toprule
+Domain definition & Level (m) & Shift (m) & Selection strength \\
+\midrule
+Observed each month (varying) & 1.266 & +0.000 & none (baseline) \\
+Fixed grid, $\ge$90\,\% of months & 1.556 & +0.290 & moderate (headline) \\
+North of 80$^\circ$N & 1.823 & +0.557 & strongest in package \\
+\midrule
+$\ge$80\,\% / $\ge$95\,\% percentile cuts & -- & -- & require deposited indicator \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,22 @@
+﻿\begin{table}[htbp]
+\centering
+\caption{One pair of products, four comparison conventions. $r$ is the
+correlation of monthly anomalies, each relative to its own product's
+calendar-month climatology, over the 43 months in which both records are
+defined; intervals are from a bootstrap over months. The mean and the median
+difference are CS2SMOS minus CCI over every admitted cell-month. The convention
+alone moves the mean difference by 0.21\,m and the correlation by 0.057.}
+\label{tab:comparison}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccc}
+\toprule
+Convention & $r$ [95\,\% CI] & Mean (m) & Median (m) & Cell-months \\
+\midrule
+Own footprint & 0.936 [0.888, 0.968] & $-0.226$ & $-0.225$ & 21\,470 \\
+Observed cells only & 0.979 [0.966, 0.988] & $-0.084$ & $-0.073$ & 16\,669 \\
+Common cells, varying & 0.980 [0.968, 0.989] & $-0.083$ & $-0.073$ & 17\,001 \\
+Common cells, fixed & 0.993 [0.988, 0.996] & $-0.011$ & $-0.015$ & 5\,526 \\
+\bottomrule
+\end{tabular}
+\end{table}

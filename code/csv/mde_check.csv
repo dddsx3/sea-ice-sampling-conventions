@@ -1,0 +1,7 @@
+quantity,value,from_tables,note
+MDE survey (m),0.3994,True,z*0.757/sqrt(28.2) = 0.40 m
+MDE merged (m),0.2857,True,z*0.488/sqrt(22.9) = 0.29 m
+autocorrelation n_eff survey,28.2,True,"Eq.(mde), Sec.piomas"
+autocorrelation n_eff merged,22.9,True,"Eq.(mde), Sec.piomas"
+Kish ratio (monthly median),18458.0,False,"weights diagnostic, median 18,458"
+Kish / n_eff ratio,654.5,True,"~655, three orders of magnitude apart"

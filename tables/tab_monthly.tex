@@ -1,0 +1,41 @@
+﻿\begin{table}[htbp]
+\centering
+\caption{Calendar-month aggregate bias of the CryoSat-2 record, estimated with
+the pooled propensity model. $\bar\theta_{\mathrm{obs}}$ is the unweighted mean
+over the observed cells of the population and is what the distributed product
+reports; $\hat\theta_{\mathrm{HT}}$ is the population mean;
+$\hat B=\bar\theta_{\mathrm{obs}}-\hat\theta_{\mathrm{HT}}$ is positive when the
+mask retains thick ice. Intervals are 95\,\% and combine the interannual
+variability of the monthly estimates with the block-bootstrap standard error of
+$\hat B$ in which $\hat\pi$ is refitted on every replicate. All fourteen
+intervals exclude zero on the block bootstrap, which refits $\hat\pi$ on every
+replicate; a two-sided $t$ test on the annual values uses interannual scatter
+alone and is marginal for several months ($0.04<p<0.09$). The calendar-month
+estimates are therefore given with intervals rather than as a significance
+table, and the pooled estimate of Section~\ref{sec:within} is the recommended
+summary. rel.\,(\%) is $\hat B$ divided by $\bar\theta_{\mathrm{obs}}$.}
+\label{tab:monthly}
+\footnotesize
+\begin{tabular}{lccccccc}
+\toprule
+Pop. & Month & $n$ & $\bar\theta_{\mathrm{obs}}$ (m) & $\hat\theta_{\mathrm{HT}}$ (m) &
+$\hat B$ (cm) & 95\,\% interval (cm) & rel.\ (\%) \\
+\midrule
+A & Oct & 11 & 1.056 & 1.054 & 0.22 & [0.01, 0.44] & 0.21 \\
+A & Nov & 11 & 1.072 & 1.069 & 0.36 & [0.26, 0.46] & 0.34 \\
+A & Dec & 11 & 1.110 & 1.104 & 0.61 & [0.46, 0.76] & 0.55 \\
+A & Jan & 10 & 1.213 & 1.206 & 0.76 & [0.58, 0.93] & 0.62 \\
+A & Feb & 10 & 1.343 & 1.333 & 1.02 & [0.79, 1.24] & 0.76 \\
+A & Mar & 10 & 1.481 & 1.472 & 0.85 & [0.56, 1.15] & 0.58 \\
+A & Apr & 10 & 1.597 & 1.592 & 0.47 & [0.11, 0.84] & 0.30 \\
+\midrule
+B & Oct & 10 & 1.059 & 1.012 & 3.42 & [2.39, 4.46] & 3.23 \\
+B & Nov & 11 & 1.092 & 1.066 & 2.62 & [2.20, 3.03] & 2.40 \\
+B & Dec & 11 & 1.184 & 1.161 & 2.28 & [1.89, 2.67] & 1.93 \\
+B & Jan & 10 & 1.336 & 1.315 & 2.09 & [1.61, 2.57] & 1.56 \\
+B & Feb & 10 & 1.504 & 1.480 & 2.45 & [1.94, 2.95] & 1.63 \\
+B & Mar & 10 & 1.671 & 1.648 & 2.29 & [1.77, 2.81] & 1.37 \\
+B & Apr & 10 & 1.749 & 1.724 & 2.50 & [1.86, 3.14] & 1.43 \\
+\bottomrule
+\end{tabular}
+\end{table}

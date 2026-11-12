@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this artefact, please cite the accompanying article and this repository."
+title: "Derived fields and code for the sampling-convention audit of Arctic sea-ice thickness"
+abstract: >-
+  Observation indicator, inverse-propensity weights and monthly bias for two sampling conventions on one CryoSat-2 sea-ice thickness record, with the code that turns them into the published 29 cm contrast.
+type: software
+license: MIT
+repository-code: "https://github.com/dddsx3/sea-ice-sampling-conventions"
+authors:
+  - name: "The authors of the accompanying manuscript"
+keywords:
+  - "sea ice thickness"
+  - "sampling convention"
+  - "inverse probability weighting"
+  - "CryoSat-2"
+version: "1.0.0"
+date-released: "2026-11-12"

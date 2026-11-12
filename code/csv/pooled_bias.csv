@@ -1,0 +1,7 @@
+estimate,value_cm,from_shipped_data,note
+Pop-A mean of 7 monthly rows,0.61,True,tab_monthly Pop-A; coincides with the pooled value
+Pop-B mean of 7 monthly rows,2.52,True,tab_monthly Pop-B
+Pop-B mean with October 2010 removed,2.37,True,"(sum-3.42)/6 = 2.37; the seven-row table, not the pooled estimate"
+"Pop-B equal-weight mean, 73 month-fields",2.72,True,"reproduce_mpo.py; one field carries quality flag 1"
+"Pop-B equal-weight mean, 72 usable fields",2.52,True,"reproduce_mpo.py; excluding the flagged 2010-10"
+"Pop-B weight-mass weighted, 73 month-fields",2.65,True,"reproduce_mpo.py; sum(W*b)/sum(W)"

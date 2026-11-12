@@ -1,0 +1,4 @@
+source,inside_m,outside_m,contrast_m,from_tables,note
+Survey,2.734,1.37,1.364,True,1.364 m; confounded with corridor gradient
+CCI,2.755,1.218,1.537,True,1.537 m
+CS2SMOS,2.81,1.125,1.685,True,1.685 m

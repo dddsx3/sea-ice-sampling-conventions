@@ -1,0 +1,21 @@
+﻿\begin{table}[htbp]
+\centering
+\caption{Inputs. The two thickness records share the 25\,km EASE-Grid~2.0
+($432\times432$ cells) and the same CryoSat-2 echoes, which is what allows one
+convention to be exchanged for the other on the same ice. The references are
+used to test the mechanism, not to score the products.}
+\label{tab:data}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{1.85cm}>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{2.95cm}@{}}
+\toprule
+Product & Version & Coverage & Grid, resolution & Role here \\
+\midrule
+ESA CCI+ sea-ice thickness, level 3C & 4.0 & 98 monthly fields, Oct 2010--Apr 2024, seven months per year & 25\,km EASE2, $432^2$ & Masked single-sensor record; five single-sensor fields also used \\
+AWI CS2SMOS, level 4 & 2.06, variant \texttt{r} & 1\,074 analysis fields over 43 months carrying data, Oct 2011--Apr 2024; seven winters, absent 2012--13, 2015--16, 2021--22 & 25\,km EASE2, $432^2$ & Merged, gap-filled record \\
+IceBird 2019 airborne EM survey & campaign & April 2019, western Arctic & flight transect, collocated to 25\,km cells & 74 collocated cells; test of the domain mechanism \\
+PIOMAS & monthly & 72 assessable months, 2010--2020 & $120\times360$ curvilinear & Grid-set experiment only \\
+ERA5 via WeatherBench~2 & 1$^\circ$ & monthly, 2010--2020 & 1$^\circ$, mapped to 25\,km & Covariates of the observation model only \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,42 @@
+﻿\begin{table}[htbp]
+\centering
+\caption{The same ice under four domain conventions. Level is the mean of the
+annual October--April means; amplitude is the October-to-April difference of the
+calendar-month climatology; trend is the slope of the annual series
+(cm per decade) with a 95\,\% interval from a bootstrap over the annual values.
+Panel A uses the 98-month single-sensor record and 14 winters, in which the
+delivered and the observed-only aggregates coincide. Panel B uses the 43-month
+merged record and seven winters. Differences are paired year by year, so their
+intervals are narrower than the intervals of the individual trends. For the
+merged record the size of the $\ge$90\,\% domain is not comparable to the
+single-sensor one, because 43 displaced winter months select a different and
+much smaller set of cells; the row is reported for completeness and is not used
+in the argument. Dashes mark quantities not computed for that convention.}
+\label{tab:domain}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.7cm}ccc@{}}
+\toprule
+Convention & Level (m) & Amplitude (m) & Trend (cm\,dec$^{-1}$) \\
+\midrule
+\multicolumn{4}{l}{\textit{A. CryoSat-2 single-sensor record, 98 months, 14 winters}} \\
+Observed-only (= delivered) & 1.266 & 0.542 & $-0.26$ [$-1.61$, $+0.72$] \\
+Fixed grid, $\ge$90\,\% of months & 1.556 & 0.884 & $-0.56$ [$-2.56$, $+0.86$] \\
+Observed cells north of 80$^\circ$N & 1.823 & -- & $-0.71$ [$-3.23$, $+1.12$] \\
+\midrule
+Difference, fixed $-$ observed & $+0.290$ & $+0.342$ & $-0.29$ [$-0.92$, $+0.15$] \\
+Difference, north of 80$^\circ$N $-$ observed & $+0.557$ & -- & $-0.44$ [$-1.59$, $+0.46$] \\
+\midrule
+\multicolumn{4}{l}{\textit{B. Merged level-4 record, 43 months, 7 winters}} \\
+Delivered analysis & 1.109 & 0.495 & $-0.34$ [$-5.22$, $+2.96$] \\
+Observed-only & 1.015 & 0.435 & $-0.11$ [$-4.19$, $+2.71$] \\
+Inverse-probability weighted & 1.111 & 0.482 & $-0.33$ [$-5.22$, $+2.97$] \\
+Common cells, varying domain & 1.197 & -- & $-0.32$ [$-5.51$, $+3.17$] \\
+Fixed grid, $\ge$90\,\% of months & 1.904 & -- & $-1.39$ [$-11.06$, $+5.27$] \\
+\midrule
+Difference, weighted $-$ observed & $+0.096$ & $+0.047$ & $-0.22$ [$-0.97$, $+0.27$] \\
+Difference, common $-$ delivered & $+0.088$ & -- & $+0.02$ [$-0.28$, $+0.23$] \\
+Difference, fixed $-$ observed & $+0.889$ & -- & $-1.28$ [$-6.26$, $+2.45$] \\
+\bottomrule
+\end{tabular}
+\end{table}

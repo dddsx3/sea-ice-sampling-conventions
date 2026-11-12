@@ -1,0 +1,5 @@
+domain_definition,level_m,shift_vs_observedonly_m,from_tables,note
+"Observed each month (varying, ~0 % cut)",1.266,0.0,True,"observed-only aggregate, baseline"
+"Fixed grid, >=90 % of months",1.556,0.29,True,the headline 29 cm (+0.290 m)
+North of 80 N (near-complete observation),1.823,0.557,True,stronger selection -> larger shift (+0.557 m)
+>=80 % / >=95 % percentile cuts,nan,nan,False,require deposited cell-level S; not in package

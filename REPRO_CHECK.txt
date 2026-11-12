@@ -1,0 +1,73 @@
+REPRODUCIBILITY CHECK — A1 "Sampling convention, not retrieval, sets the level
+of Arctic sea-ice thickness aggregates"
+================================================================================
+
+Generated for the major-revision response. This file records what a reader can
+reproduce from the package as shipped, what requires the separately deposited
+derived fields / analysis code, and the compile status.
+
+--------------------------------------------------------------------------------
+1. COMPILE STATUS (MiKTeX-pdfTeX 4.18, elsarticle)
+--------------------------------------------------------------------------------
+    command: pdflatex -interaction=nonstopmode manuscript.tex
+             bibtex manuscript
+             pdflatex manuscript ; pdflatex manuscript
+    result : 0 errors, 0 undefined references, 0 overfull boxes
+    output : manuscript.pdf = 79 pages
+    figures: 9   tables: 7   keywords: 6   references: 37
+    abstract: 249 words   highlights: 5 (all <= 85 chars)
+
+--------------------------------------------------------------------------------
+2. WHAT SHIPS WITH THE MANUSCRIPT (reproducible from the six tables)
+--------------------------------------------------------------------------------
+    tables/   : tab_data, tab_missing, tab_domain, tab_monthly, tab_icebird,
+                tab_comparison, tab_cutoff  (tab_cutoff added in this revision)
+    code/reproduce_from_tables.py  -> acceptance checker; exits non-zero on any
+                                      discrepancy between a recomputed value and
+                                      the published one.  STATUS: PASS
+    code/repro_all.py              -> writes the CSVs below from the same tables.
+
+    CSVs (code/csv/), every row carries a from_tables flag:
+      cadence_check.csv        item 1  (1,074 fields / 43 months / 1,309 days)
+      pooled_bias.csv          item 2  (Pop-A/B 7-row means; pooled values flagged)
+      mde_check.csv            item 3  (MDE 0.40/0.29 m; Kish 18,458)
+      mean_preservation.csv    item 4  (delivered 1.109 vs IPW 1.111 = 2 mm)
+      icebird_contrast.csv     item 5  (inside-outside 1.364/1.537/1.685 m)
+      cutoff_sensitivity.csv   item 7  (>=90% -> +0.290 m; north-80 -> +0.557 m)
+
+--------------------------------------------------------------------------------
+3. WHAT IS DEPOSITED SEPARATELY (NOT in this package; flagged in the CSVs)
+--------------------------------------------------------------------------------
+    - The cell-level observation indicator S (per record).
+    - The inverse-propensity weights for Pop-A and Pop-B.
+    - The per-month bias estimate with its interval and quality flag.
+    - The analysis + figure code and the environment file.
+    These are required to recompute the three *pooled* propensity estimates
+    (+2.72 / +2.52 / +2.65 cm, item 2) and a true percentile sweep of the 90 %
+    cut (item 7, the 80/95 % rows). They are described as a pending deposit in
+    the "Data and code availability" statement and are NOT asserted to be in the
+    package. Their absence is stated explicitly in REVISION.md (residual risk).
+
+--------------------------------------------------------------------------------
+4. HEADLINE NUMBERS — reproducible from the package (tables only)
+--------------------------------------------------------------------------------
+    29.0 cm level shift (tab_domain: 1.556 - 1.266)            PASS
+    34.2 cm amplitude shift (0.884 - 0.542)                    PASS
+    +23 % level, +63 % amplitude                               PASS
+    35.99 % unobserved (tab_missing)                           PASS
+    2 mm mean preservation (1.111 - 1.109)                     PASS
+    MDE 40 / 29 cm (autocorrelation n_eff 28.2 / 22.9)         PASS
+    IceBird contrasts 1.364 / 1.537 / 1.685 m                 PASS
+    pooled 7-row means 0.61 / 2.52 cm; Pop-B excl-Oct 2.37 cm PASS
+    cadence 25 fields/month, 1.2 days/field, 82 % days         PASS
+
+--------------------------------------------------------------------------------
+5. ITEMS REQUIRING THE DEPOSIT (cannot be reproduced from the package alone)
+--------------------------------------------------------------------------------
+    - Pooled propensity estimates +2.72 / +2.52 / +2.65 cm (item 2): only the
+      seven calendar-month rows are in tab_monthly; the pooled value is a single
+      IPW estimate over 72-73 month-fields and needs the deposited code.
+    - True 80 % / 95 % percentile sweep (item 7): needs the deposited S indicator.
+    - Interannual SD of 0.041 m behind "29 +/- 4 cm": needs the 14 annual
+      differences (R1 m1); the manuscript already labels it as interannual SD.
+    - Bias-trend SE reconciliation (A1-24): needs the bias time series.

@@ -1,0 +1,38 @@
+key,doi,grade,why,recorded_title,crossref_title,score
+ricker2014,10.5194/tc-8-1607-2014,PASS,title 1.00,Sensitivity of CryoSat-2 Arctic sea-ice freeboard and thickness on radar-waveform interpretation,Sensitivity of CryoSat-2 Arctic sea-ice freeboard and thickness on radar-waveform interpretation,1.000
+ricker2017,10.5194/tc-11-1607-2017,PASS,title 1.00,A weekly Arctic sea-ice thickness data record from merged CryoSat-2 and SMOS satellite data,A weekly Arctic sea-ice thickness data record from merged CryoSat-2 and SMOS satellite data,1.000
+lindsay2015,10.5194/tc-9-269-2015,PASS,title 1.00,"Arctic sea ice thickness loss determined using subsurface, aircraft, and satellite observations","Arctic sea ice thickness loss determined using subsurface, aircraft, and satellite observations",1.000
+sallila2019,10.5194/tc-13-1187-2019,PASS,title 1.00,Assessment of contemporary satellite sea ice thickness products for Arctic sea ice,Assessment of contemporary satellite sea ice thickness products for Arctic sea ice,1.000
+schweiger2011,10.1029/2011jc007084,PASS,title 1.00,Uncertainty in modeled Arctic sea ice volume,Uncertainty in modeled Arctic sea ice volume,1.000
+lavergne2019,10.5194/tc-13-49-2019,PASS,title 1.00,Version 2 of the EUMETSAT OSI SAF and ESA CCI sea-ice concentration climate data records,Version 2 of the EUMETSAT OSI SAF and ESA CCI sea-ice concentration climate data records,1.000
+ivanova2015,10.5194/tc-9-1797-2015,PASS,title 1.00,Inter-comparison and evaluation of sea ice algorithms: towards further  identification of challenges and optimal approach using passive microwave  observations,Inter-comparison and evaluation of sea ice algorithms: towards further  identification of challenges and optimal approach using passive microwave  observations,1.000
+horvitz1952,10.1080/01621459.1952.10483446,PASS,title 1.00,A Generalization of Sampling Without Replacement from a Finite Universe,A Generalization of Sampling Without Replacement from a Finite Universe,1.000
+rosenbaum1983,10.1093/biomet/70.1.41,PASS,title 1.00,The central role of the propensity score in observational studies for causal effects,The central role of the propensity score in observational studies for causal effects,1.000
+gneiting2007,10.1198/016214506000001437,PASS,title 1.00,"Strictly Proper Scoring Rules, Prediction, and Estimation","Strictly Proper Scoring Rules, Prediction, and Estimation",1.000
+rasp2024,10.1029/2023ms004019,PASS,title 1.00,WeatherBench 2: A Benchmark for the Next Generation of Data‐Driven Global Weather Models,WeatherBench 2: A Benchmark for the Next Generation of Data‐Driven Global Weather Models,1.000
+hirano2001,10.1023/a:1020371312283,PASS,title 1.00,Estimation of Causal Effects using Propensity Score Weighting: An Application to Data on Right Heart Catheterization,Estimation of Causal Effects using Propensity Score Weighting: An Application to Data on Right Heart Catheterization,1.000
+zhangrothrock2003,10.1175/1520-0493(2003)131<0845:mgsiwa>2.0.co;2,PASS,title 1.00,Modeling Global Sea Ice with a Thickness and Enthalpy Distribution Model in Generalized Curvilinear Coordinates,Modeling Global Sea Ice with a Thickness and Enthalpy Distribution Model in Generalized Curvilinear Coordinates,1.000
+kaleschke2012,10.1029/2012gl050916,PASS,title 1.00,Sea ice thickness retrieval from SMOS brightness temperatures during the Arctic freeze‐up period,Sea ice thickness retrieval from SMOS brightness temperatures during the Arctic freeze‐up period,1.000
+austin2015,10.1002/sim.6607,PASS,title 1.00,Moving towards best practice when using inverse probability of treatment weighting (IPTW) using the propensity score to estimate causal treatment effects in observational studies,Moving towards best practice when using inverse probability of treatment weighting (IPTW) using the propensity score to estimate causal treatment effects in observational studies,1.000
+austin2009,10.1002/sim.3697,PASS,title 1.00,Balance diagnostics for comparing the distribution of baseline covariates between treatment groups in propensity‐score matched samples,Balance diagnostics for comparing the distribution of baseline covariates between treatment groups in propensity‐score matched samples,1.000
+kwok2015b,10.5194/tc-7-1035-2013,PASS,title 1.00,"Sea ice thickness, freeboard, and snow depth products from Operation  IceBridge airborne data","Sea ice thickness, freeboard, and snow depth products from Operation  IceBridge airborne data",1.000
+laxon2013,10.1002/grl.50193,PASS,title 1.00,CryoSat‐2 estimates of Arctic sea ice thickness and volume,CryoSat‐2 estimates of Arctic sea ice thickness and volume,1.000
+rubin1976,10.1093/biomet/63.3.581,PASS,title 1.00,Inference and missing data,Inference and missing data,1.000
+hersbach2020,10.1002/qj.3803,PASS,title 1.00,The ERA5 global reanalysis,The ERA5 global reanalysis,1.000
+gelman2014,10.1177/1745691614551642,PASS,title 1.00,Beyond Power Calculations,Beyond Power Calculations,1.000
+icebird2019,10.1594/PANGAEA.933912,PASS,title 1.00,"Airborne sea ice parameters during the IceBird Winter 2019 campaign in the Arctic Ocean, Version 1","Airborne sea ice parameters during the IceBird Winter 2019 campaign in the Arctic Ocean, Version 1",1.000
+kitagawa1955,10.1080/01621459.1955.10501299,PASS,title 1.00,Components of a Difference Between Two Rates,Components of a Difference Between Two Rates*,1.000
+tiantkunze2014,10.5194/tc-8-997-2014,PASS,title 1.00,"SMOS-derived thin sea ice thickness: algorithm baseline, product specifications and initial verification","SMOS-derived thin sea ice thickness: algorithm baseline, product specifications and initial verification",1.000
+ivanova2016,10.5194/tc-9-1797-2015,PASS,title 1.00,Inter-comparison and evaluation of sea ice algorithms: towards further identification of challenges and optimal approach using passive microwave observations,Inter-comparison and evaluation of sea ice algorithms: towards further  identification of challenges and optimal approach using passive microwave  observations,1.000
+little2019,10.1002/9781119482260,PASS,title 1.00,"Statistical Analysis with Missing Data, Third Edition","Statistical Analysis with Missing Data, Third Edition",1.000
+seaman2013,10.1177/0962280210395740,PASS,title 1.00,Review of inverse probability weighting for dealing with missing data,Review of inverse probability weighting for dealing with missing data,1.000
+efron1993,10.1201/9780429246593,PASS,title 1.00,An Introduction to the Bootstrap,An Introduction to the Bootstrap,1.000
+diggle2007,10.1007/978-0-387-48536-2,PASS,title 1.00,Model-based Geostatistics,Model-based Geostatistics,1.000
+lahiri2003,10.1007/978-1-4757-3803-2,PASS,title 1.00,Resampling Methods for Dependent Data,Resampling Methods for Dependent Data,1.000
+gelfand2010,10.1201/9781420072884,PASS,title 1.00,Handbook of Spatial Statistics,Handbook of Spatial Statistics,1.000
+cressie1993,10.1002/9781119115151,PASS,title 1.00,Statistics for Spatial Data,Statistics for Spatial Data,1.000
+landy2022,10.1038/s41586-022-05058-5,PASS,title 1.00,A year-round satellite sea-ice thickness record from CryoSat-2,A year-round satellite sea-ice thickness record from CryoSat-2,1.000
+ricker2018,10.1002/2016gl072244,PASS,title 1.00,Satellite-observed drop of Arctic sea ice growth in winter 2015--2016,Satellite‐observed drop of Arctic sea ice growth in winter 2015–2016,1.000
+cci_atbd,,PASS,no DOI; document URL reachable (200),"Sea Ice Thickness Algorithm Theoretical Basis Document, version 2.5",,1.000
+cci_pdd,,PASS,no DOI; document URL reachable (200),"Product Definition Document, version 1.2",,1.000
+cs2smos_pds,,PASS,no DOI; document URL reachable (200),"CS2SMOS level-4 sea ice thickness product, version 2.06: product documentation",,1.000

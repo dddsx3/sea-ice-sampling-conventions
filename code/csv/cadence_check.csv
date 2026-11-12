@@ -1,0 +1,14 @@
+quantity,value,from_tables,note
+analysis_fields,1074.0,True,manuscript + tab_missing denominator
+data_bearing_months,43.0,True,manuscript Sec.Data
+span_days,1309.0,False,stated in manuscript :161
+total_cell_fields,21837215.0,True,tab_missing:15
+unobserved_cell_fields,7859638.0,True,tab_missing:15
+unobserved_percent,35.99,True,35.99 % headline
+cells_per_field,20332.6,True,total/nf
+cells_per_field_pct_grid,10.9,True,order of winter ice fraction
+fields_per_month,24.98,True,25/month -> not weekly
+days_per_field,1.22,True,one analysis every ~1.2 days
+pct_days_with_analysis,82.0,True,manuscript :162
+weekly_counterfactual_fields,187.0,True,1309/7
+weekly_counterfactual_pct_grid,62.6,True,"62 % -> impossible, so count is right"

@@ -1,0 +1,46 @@
+﻿\begin{table}[htbp]
+\centering
+\caption{The IceBird 2019 airborne survey as a test of the domain mechanism.
+Panel A pairs product and survey cell by cell over the 74 collocated cells;
+the difference is product minus survey, and intervals are 95\,\%
+block-bootstrap intervals over 19 blocks of 100\,km. Panel B splits the same
+cells by whether they belong to the $\ge$90\,\% domain and gives the thickness
+of each class in each source; the contrasts below are the mean differences
+between the two classes, with the same bootstrap intervals. Panel A tests
+agreement, Panel B tests the mechanism, and they use the same cells.}
+\label{tab:icebird}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lccccr}
+\toprule
+\multicolumn{6}{l}{\textit{A. Cell-wise offsets over the 74 collocated cells}} \\
+Pair & $n$ & Mean (m) & 95\,\% CI (m) & SD (m) & $r$ \\
+\midrule
+CCI $-$ survey & 74 & $-0.045$ & [$-0.315$, $+0.234$] & 0.760 & 0.770 \\
+CS2SMOS $-$ survey & 74 & $-0.046$ & [$-0.302$, $+0.240$] & 0.738 & 0.787 \\
+CCI $-$ CS2SMOS & 74 & $+0.001$ & [$-0.113$, $+0.093$] & 0.304 & -- \\
+\bottomrule
+\end{tabular}
+
+\vspace{6pt}
+\begin{tabular}{lcccc}
+\toprule
+\multicolumn{5}{l}{\textit{B. The $\ge$90\,\% domain against the rest of the survey corridor}} \\
+Class & $n$ & Survey (m) & CCI (m) & CS2SMOS (m) \\
+\midrule
+$\ge$90\,\% of months & 46 & 2.734 & 2.755 & 2.810 \\
+other cells & 28 & 1.370 & 1.218 & 1.125 \\
+\bottomrule
+\end{tabular}
+
+\vspace{6pt}
+\begin{tabular}{lccc}
+\toprule
+Contrast, inside minus outside & $n$ & Difference (m) & 95\,\% CI (m) \\
+\midrule
+Survey & 74 & $+1.364$ & [0.999, 1.798] \\
+CCI & 74 & $+1.537$ & [0.898, 2.207] \\
+CS2SMOS & 74 & $+1.685$ & [1.054, 2.338] \\
+\bottomrule
+\end{tabular}
+\end{table}
